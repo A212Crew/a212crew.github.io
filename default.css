@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+html,
+body {
+    font-family: Arial,Helvetica,sans-serif;
+	height:100%;
+	background: #fff;
+}
+a {
+    /*text-decoration: none;*/
+}
+#container {
+	min-height:100%;
+	position:relative;
+}
+#header {
+   	background-image: url(images/bg_top.jpg);
+	background-position: center 54px;
+	background-repeat: repeat-x;
+	height: 230px;
+}
+#body {
+   padding:10px;
+   padding-bottom:180px;   /* Height of the footer */
+}
+#footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height: 180px;   /* Height of the footer */
+	background-image: url(images/bg_bottom.gif);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+}
+
+#header h1 {
+	background: url(images/header.jpg) no-repeat scroll center top;
+}
+#header h1 a {
+	display: block;
+	height: 196px;
+	width: 917px;
+	margin: 0 auto;
+    text-indent:-9999px;
+	margin: 0 0 50px 0;
+}
+.inner {
+	margin: 0 auto;
+	width: 917px;
+}
+
+ul.navigation {
+	list-style: none;
+	float:left;
+	width:200px;
+	margin: 0 20px 0 20px;
+}
+.navigation a {
+	text-decoration: none;
+	color:#8A8A8A;
+	background: url(images/bullet.png) no-repeat 10px center;
+	padding: 2px 0 0 36px;
+
+}
+.navigation li {
+	margin: 0 0 10px 0;	
+}
+.navigation li.active a {
+	color:#124FA1;
+	background: url(images/bullet_selected.png) no-repeat 10px center;
+}
+
+.content {
+	float:left;
+	width:677px;
+	color:#333333;
+	line-height: 16pt;
+}
+.content h2 {
+	margin: 0 0 1.2em 0;
+}
+.content p {
+	margin: 1.2em 0;
+}
+.content ul {
+	margin: 20px 0;
+}
+.content li {
+	margin: 0 0 0 14px;
+	padding: 0.3em 0 0.3em 10px;
+}
+.itunesbanner {
+	width: 100%;
+	margin-bottom:30px;
+	background-color: #F8F8F8;
+	position:relative;
+}
+.itunesbanner h2 {
+	margin-top: 8px;
+	margin-bottom:8px;
+	line-height: 1.2em;
+}
+.itunesbannerleft {
+	float:left;
+	margin-right: 20px;
+}
+.itunesbanner a{
+	text-decoration: none;
+	color:#124FA1;
+}
+.itunesbannerright {
+	float:left;
+}
+.itunesbadge{
+	position:absolute;
+	bottom:14px;
+}
+
+#bottom {
+	bottom:10px;
+	height:20px;
+	height: auto;
+	color:#fff;
+	position:absolute;
+}
+#left {
+	float:left;
+	width:700px;
+	font-weight:bold;
+}
+#right {
+	float:left;
+	font-size:smaller;
+}
+
+#header .logos {
+    position: relative;
+    right: 5px;
+    top: 16px;
+    z-index: 100;
+}
+
+.logos > a {
+    display: block;
+    float: right;
+    margin-left: 5px;
+}
