@@ -52,7 +52,7 @@ a {
 }
 .inner {
 	margin: 0 auto;
-	width: 917px;
+	width: 1096px;
 }
 
 ul.navigation {
@@ -78,7 +78,7 @@ ul.navigation {
 
 .content {
 	float:left;
-	width:677px;
+	width:856px;
 	color:#333333;
 	line-height: 16pt;
 }
@@ -94,6 +94,12 @@ ul.navigation {
 .content li {
 	margin: 0 0 0 14px;
 	padding: 0.3em 0 0.3em 10px;
+}
+.textblock {
+	width: 100%;
+	margin-bottom:30px;
+	background-color: #FFFFFF;
+	position:relative;
 }
 .itunesbanner {
 	width: 100%;
